@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "137680693130",
+    "firebase_url": "https://pdd2-33f62.firebaseio.com",
+    "project_id": "pdd2-33f62",
+    "storage_bucket": "pdd2-33f62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137680693130:android:b38c6b222dfeb198900a73",
+        "android_client_info": {
+          "package_name": "com.autotest.pdd_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137680693130-s656h64uoot8qk54cug4qd0se1rt6gos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4HK--yxc0aZN11LIJVZnEtqeP-1Bc9z4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137680693130-s656h64uoot8qk54cug4qd0se1rt6gos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

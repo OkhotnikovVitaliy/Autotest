@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+
+    <string name="ta1">2 1 1 4 2 3 4 3 1 3 1 3 1 1 3 4 3 4 3 3</string>
+
+    <string name="ta2">2 2 1 1 3 1 3 3 1 3 3 2 3 1 1 3 2 2 3 3</string>
+
+    <string name="ta3">1 3 3 1 2 3 2 1 3 1 3 2 2 1 3 3 4 2 3 2</string>
+
+    <string name="ta4">1 4 2 1 2 1 1 2 2 1 1 2 3 3 2 2 1 4 1 2 </string>
+
+    <string name="ta5">3 2 1 1 3 1 3 3 2 3 1 4 2 1 2 3 2 1 2 3</string>
+
+    <string name="ta6">1 1 3 2 2 2 1 2 3 3 1 3 3 2 2 3 2 4 1 1</string>
+
+    <string name="ta7">1 2 1 2 2 2 1 3 2 2 1 3 2 2 3 3 3 3 2 2</string>
+
+    <string name="ta8">2 3 3 1 1 3 1 2 3 3 2 1 1 2 2 3 2 1 1 2</string>
+
+    <string name="ta9">2 2 1 3 1 2 2 1 3 2 3 3 2 2 1 3 3 3 2 2</string>
+
+    <string name="ta10">2 1 3 3 2 1 1 2 1 3 2 2 3 3 3 3 3 4 3 3</string>
+
+    <string name="ta11">2 1 3 4 3 3 1 1 2 3 3 1 1 2 1 2 3 2 1 2</string>
+
+    <string name="ta12">1 2 2 3 2 1 2 1 3 2 2 1 2 3 3 3 2 2 1 3</string>
+
+    <string name="ta13">3 2 3 2 3 1 1 3 2 3 3 3 1 3 2 3 1 2 3 2</string>
+
+    <string name="ta14">1 2 2 3 2 1 1 3 1 2 1 1 3 3 2 2 3 3 1 3</string>
+
+    <string name="ta15">4 2 3 3 4 1 1 3 1 2 3 1 1 3 1 2 4 3 2 2</string>
+
+    <string name="ta16">2 1 2 3 1 1 2 1 3 1 4 2 3 2 3 1 2 3 3 2</string>
+
+    <string name="ta17">2 2 3 1 3 1 1 2 2 2 3 2 1 2 3 3 1 2 2 1</string>
+
+    <string name="ta18">3 2 4 3 1 1 3 1 2 1 3 3 1 2 2 2 2 2 3 3</string>
+
+    <string name="ta19">1 2 3 2 2 1 2 4 3 2 1 1 1 4 3 2 1 1 3 3</string>
+
+    <string name="ta20">1 3 1 2 1 2 3 3 2 3 2 2 3 2 2 3 1 3 2 4</string>
+
+    <string name="ta21">2 2 2 1 1 3 2 1 4 3 2 1 1 2 1 2 1 3 3 1</string>
+
+    <string name="ta22">1 1 1 2 3 2 3 1 3 3 3 3 4 2 3 2 2 3 2 3</string>
+
+    <string name="ta23">2 2 2 2 2 1 3 3 3 3 2 3 2 3 2 3 1 1 2 4</string>
+
+    <string name="ta24">2 1 2 4 2 2 1 2 2 2 1 1 1 1 2 3 2 2 2 1</string>
+
+    <string name="ta25">3 2 2 1 2 1 1 2 1 1 1 2 2 3 3 3 2 1 2 2</string>
+
+    </resources>

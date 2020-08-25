@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size">10sp</dimen>
+    <dimen name="frame_text_size">20sp</dimen>
+    <dimen name="gradient_circle_thickness">3dp</dimen>
+    <dimen name="status_gradient_circle_thickness">8dp</dimen>
+    <dimen name="question_text_size">15sp</dimen>
+
+
+</resources>

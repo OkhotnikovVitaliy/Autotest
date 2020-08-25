@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">Автотест</string>
+    <string name="admob_app_id">"ca-app-pub-3940256099942544/5224354917"</string>
+    <string name="rewarded_video">"ca-app-pub-3940256099942544/5224354917"</string>
+    <string name="tickets_name">БИЛЕТЫ</string>
+    <string name="menu_main">ГЛАВНАЯ</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="tests">\n\nТЕСТЫ</string>
+    <string name="next_string">СЛЕДУЮЩИЙ ВОПРОС</string>
+    <string name="tss_subtitle">ВЫБЕРИТЕ НОМЕР БИЛЕТА</string>
+    <string name="go_again">Пройти заново</string>
+    <string name="go_again_exam">Пройти еще раз</string>
+    <string name="close">Вернуться к вопросам</string>
+    <string name="close_exam">Смотреть результат</string>
+    <string name="chose_other_quiz">Выбрать новый билет</string>
+    <string name="quizes">Выберите номер билета</string>
+    <string name="quiz_format">Билет №%d</string>
+    <string name="programName1">@string/app_name</string>
+    <string name="programName2">Правила дорожного движения Кыргызской Республики</string>
+    <string name="titleOfQuizStatistic">Процент ошибок допущенный в билетах</string>
+    <string name="rules">Правила дорожного движения</string>
+    <string name="rule">ПРАВИЛА\n ДОРОЖНОГО\n ДВИЖЕНИЯ</string>
+    <string name="rules_desc">ПДД</string>
+    <string name="rules_desc_upper">Кыргызской Республики</string>
+    <string name="sign_desc">Знаки</string>
+    <string name="sign_desc_upper">дорожные</string>
+    <string name="lines_desc">Разметка</string>
+    <string name="lines_desc_upper">дорожная</string>
+    <string name="programName3">2020</string>
+    <string name="exam">Экзамен</string>
+    <string name="exams">\nЭКЗАМЕН</string>
+    <string name="errors_string">Смотреть ошибки</string>
+    <string name="warning_signs_field">Предупреждающие знаки</string>
+    <string name="priority_signs_field">Знаки приоритета</string>
+    <string name="prohibition_signs_field">Запрещающие знаки</string>
+    <string name="prescriptive_signs_field">Предписывающие знаки</string>
+    <string name="special_signs_field">Знаки особых предписаний</string>
+    <string name="information_signs_field">Информационные знаки</string>
+    <string name="service_signs_field">Знаки сервиса</string>
+    <string name="plates_field">Знаки дополнительной информации (таблички)</string>
+    <string name="signs_field">по ГОСТ 32953&#8211;2014 и КМС ГОСТ Р 52289&#8211;2004</string>
+    <string name="signs">Знаки дорожные</string>
+    <string name="marks">Разметка дорожная</string>
+    <string name="law">Правила дорожного движения</string>
+    <string name="phone_desc">Полезные контакты</string>
+    <string name="phone">ПОЛЕЗНЫЕ КОНТАКТЫ</string>
+    <string name="fines_desc">Проверка штрафов</string>
+    <string name="fines">ПРОВЕРКА\n ШТРАФОВ</string>
+    <string name="carcheck">Carcheck</string>
+    <string name="carcheck_desc">CARCHECK</string>
+    <string name="info_desc">О программе</string>
+    <string name="skip">Пропустить</string>
+    <string name="info">О ПРОГРАММЕ</string>
+    <string name="hint">Показать подсказку</string>
+    <string name="warning_signs">Предупреждающие\n знаки</string>
+    <string name="priority_signs">Знаки\n приоритета</string>
+    <string name="prohibition_signs">Запрещающие\n знаки</string>
+    <string name="prescriptive_signs">Предписывающие\n знаки</string>
+    <string name="special_signs">Знаки\n особых предписаний</string>
+    <string name="information_signs">Информационные\n знаки</string>
+    <string name="service_signs">Знаки\n сервиса\n\n</string>
+    <string name="plates">Знаки\n дополнительной\n информации\n (таблички)</string>
+    <string name="horisontal_marks_field">Горизонтальная разметка</string>
+    <string name="vertical_marks_field">Вертикальная разметка</string>
+    <string name="horisontal_marks_field_desc">по ГОСТ 32953&#8211;2014 и КМС ГОСТ Р 52289&#8211;2004</string>
+    <string name="general_provisions_field">\nОбщие положения</string>
+    <string name="driver_duties_field">\nОбщие обязанности водителей</string>
+    <string name="special_signals_field">Применение специальных сигналов</string>
+    <string name="pedestrian_responsibilities_field">\nПрава и обязанности пешеходов</string>
+    <string name="passenger_duties_field">\nОбязанности пассажиров</string>
+    <string name="traffic_signals_field">Сигналы светофора и регулировщика</string>
+    <string name="alarm_field">Применение аварийной сигнализации и знака аварийной остановки</string>
+    <string name="start_of_movement_field">Начало движения, маневрирование</string>
+    <string name="location_on_the_road_field">Расположение транспортных средств на проезжей части</string>
+    <string name="traveling_speed_field">\nСкорость движения и дистанция</string>
+    <string name="overtaking_field">\nОбгон, встречный разъезд</string>
+    <string name="stop_and_parking_field">Остановка, стоянка (парковка) транспорта</string>
+    <string name="crossroads_field">\nПроезд перекрестков</string>
+    <string name="pedestrian_crossings_field">Пешеходные переходы и остановки маршрутных транспортных средств</string>
+    <string name="railroad_crossing_field">Движение через железнодорожные пути</string>
+    <string name="highway_field">\nДвижение по автомагистралям</string>
+    <string name="residential_areas_field">\nДвижение в жилых зонах</string>
+    <string name="route_transport_field">Приоритет маршрутных транспортных средств</string>
+    <string name="light_fixtures_field">Пользование внешними световыми приборами</string>
+    <string name="towing_field">Буксировка механических транспортных средств</string>
+    <string name="training_ride_field">\nУчебная езда</string>
+    <string name="transportation_of_people_field">\nПеревозка людей</string>
+    <string name="freight_transportation_field">\nПеревозка грузов</string>
+    <string name="additional_requirements_field">Дополнительные требования к движению велосипедов, мопедов, гужевых повозок, а также прогону животных</string>
+    <string name="attachment1_field">Приложение 1 к Правилам дорожного движения Кыргызской Республики</string>
+    <string name="attachment2_field">Приложение 2 к Правилам дорожного движения Кыргызской Республики</string>
+    <string name="general_field">(Введены в действие с 1 сентября 1999 года)\n\n(В редакции постановлений Правительства КР от 3 марта 2009 года
+        № 136, 28 мая 2012 года № 329,27 сентября 2012 года № 656, 20 октября 2015 года № 714, 16 января 2016 года № 9, 25 декабря 2017 года
+        № 833, 7 октября 2019 года № 522, 31 октября 2019 года № 588, 5 февраля 2020 года № 62)</string>
+    <string name="general_field2">Правила предназначены для всех участников дорожного движения. \n\nОсновной документ, регламентирующий на территории
+        Кыргызской Республики дорожное движение с учетом норм международных Конвенций о дорожном движении и о дорожных знаках и сигналах, требований
+        государственных стандартов.</string>
+    <string name="general_provisions">1. Общие положения</string>
+    <string name="driver_duties">2. Общие обязанности водителей</string>
+    <string name="special_signals">3. Применение специальных сигналов</string>
+    <string name="pedestrian_responsibilities">4. Права и обязанности пешеходов</string>
+    <string name="passenger_duties">5. Обязанности пассажиров</string>
+    <string name="traffic_signals">6. Сигналы светофора и регулировщика</string>
+    <string name="alarm">7. Применение аварийной сигнализации и знака аварийной остановки</string>
+    <string name="start_of_movement">8. Начало движения, маневрирование</string>
+    <string name="location_on_the_road">9. Расположение транспортных средств на проезжей части</string>
+    <string name="traveling_speed">10. Скорость движения и дистанция</string>
+    <string name="overtaking">11. Обгон, встречный разъезд</string>
+    <string name="stop_and_parking">12. Остановка, стоянка (парковка) транспорта</string>
+    <string name="crossroads">13. Проезд перекрестков</string>
+    <string name="pedestrian_crossings">14. Пешеходные переходы и остановки маршрутных транспортных средств</string>
+    <string name="railroad_crossing">15. Движение через железнодорожные пути</string>
+    <string name="highway">16. Движение по автомагистралям</string>
+    <string name="residential_areas">17. Движение в жилых зонах</string>
+    <string name="route_transport">18. Приоритет маршрутных транспортных средств</string>
+    <string name="light_fixtures">19. Пользование внешними световыми приборами</string>
+    <string name="towing">20. Буксировка механических транспортных средств</string>
+    <string name="training_ride">21. Учебная езда</string>
+    <string name="transportation_of_people">22. Перевозка людей</string>
+    <string name="freight_transportation">23. Перевозка грузов</string>
+    <string name="additional_requirements">24. Дополнительные требования к движению велосипедов, мопедов, гужевых повозок, а также прогону животных</string>
+    <string name="attachment1">Дорожные знаки\n(по ГОСТ 32953&#8211;2014 и КМС ГОСТ Р 52289&#8211;2004)</string>
+    <string name="attachment2">Дорожная разметка и ее характеристики\n(по ГОСТ 32953&#8211;2014 и КМС ГОСТ Р 52289&#8211;2004)</string>
+
+
+
+</resources>
+
+
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:gravity="center_vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center">
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="10dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/alertTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:text="Билет"
+            android:textColor="@color/correctAnswer"
+            android:textSize="32sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/again_quiz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/test_next_button_selector"
+            android:text="@string/go_again"
+            android:textColor="@color/colorPrimary" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center">
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="5dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/next_quiz"
+            android:layout_width="226dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/test_next_button_selector"
+            android:text="@string/chose_other_quiz"
+            android:textColor="@color/colorPrimary" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center">
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="5dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/test_next_button_selector"
+            android:text="@string/close"
+            android:textColor="@color/colorPrimary" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center">
+
+        <View
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_height="10dp" />
+    </TableRow>
+
+</TableLayout>

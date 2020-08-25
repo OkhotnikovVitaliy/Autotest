@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/my_toolbar"
+            layout="@layout/toolbox" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="25dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:id="@+id/warning_signs"
+                        style="@style/signs_style"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:gravity="center">
+
+                        <ImageView
+
+                            style="@style/main_menu_image_style"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/s1_1" />
+                    </RelativeLayout>
+
+                    <TextView
+
+                        style="@style/signs_text_style"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="-15dp"
+                        android:gravity="bottom|center"
+                        android:text="@string/warning_signs" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/separator" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/frame" />
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:id="@+id/priority_signs"
+                        style="@style/signs_style"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1"
+                        android:clickable="true">
+
+                        <ImageView
+
+                            style="@style/main_menu_image_style"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/s1_2" />
+                    </RelativeLayout>
+
+                    <TextView
+
+                        style="@style/signs_text_style"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="-15dp"
+                        android:gravity="bottom|center"
+                        android:text="@string/priority_signs" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/separator" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:id="@+id/prohibition_signs"
+                        style="@style/signs_style"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            style="@style/main_menu_image_style"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/s1_3" />
+                    </RelativeLayout>
+
+                    <TextView
+
+                        style="@style/signs_text_style"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="-15dp"
+                        android:gravity="bottom|center"
+                        android:text="@string/prohibition_signs" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/separator" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/frame" />
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:id="@+id/prescriptive_signs"
+                        style="@style/signs_style"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            style="@style/main_menu_image_style"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/s1_4" />
+                    </RelativeLayout>
+
+                    <TextView
+
+                        style="@style/signs_text_style"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="-15dp"
+                        android:gravity="bottom|center"
+                        android:text="@string/prescriptive_signs" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/separator" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:id="@+id/special_signs"
+                        style="@style/signs_style"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            style="@style/main_menu_image_style"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/s1_5" />
+                    </RelativeLayout>
+
+                    <TextView
+
+                        style="@style/signs_text_style"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="-15dp"
+                        android:gravity="bottom|center"
+                        android:text="@string/special_signs" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/separator" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/frame" />
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:id="@+id/information_signs"
+                        style="@style/signs_style"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            style="@style/main_menu_image_style"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/s1_6" />
+                    </RelativeLayout>
+
+                    <TextView
+
+                        style="@style/signs_text_style"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="-15dp"
+                        android:gravity="bottom|center"
+                        android:text="@string/information_signs" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@drawable/separator" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:id="@+id/service_signs"
+                        style="@style/signs_style"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            style="@style/main_menu_image_style"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerInParent="true"
+                            app:srcCompat="@drawable/s1_7" />
+                    </RelativeLayout>
+
+                    <TextView
+
+                        style="@style/signs_text_style"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="-15dp"
+                        android:gravity="bottom|center"
+                        android:text="@string/service_signs" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:background="@drawable/frame" />
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:id="@+id/plates_signs"
+                        style="@style/signs_style"
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:layout_weight="1">
+
+                        <ImageView
+                            style="@style/main_menu_image_style"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            app:srcCompat="@drawable/s1_8" />
+                    </RelativeLayout>
+
+                    <TextView
+
+                        style="@style/signs_text_style"
+                        android:layout_gravity="center|top"
+                        android:layout_marginTop="-15dp"
+                        android:gravity="bottom|center"
+                        android:text="@string/plates" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-9614128497933832/8583432645">
+
+    </com.google.android.gms.ads.AdView>
+
+
+</LinearLayout>

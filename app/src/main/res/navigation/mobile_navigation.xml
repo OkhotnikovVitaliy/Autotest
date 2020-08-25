@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/mainFragment">
+
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.autotest.pdd_test.fragments.MainFragment"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/phoneActivity"
+        android:name="com.autotest.pdd_test.fragments.PhoneFragment"
+        tools:layout="@layout/list_phone" />
+    <fragment
+        android:id="@+id/informActivity"
+        android:name="com.autotest.pdd_test.fragments.InformFragment"
+        tools:layout="@layout/inform_layout" />
+</navigation>
